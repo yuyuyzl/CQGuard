@@ -14,6 +14,6 @@ module.exports={
             secret: '', //CQhttp插件配置
             sendGroup:586514087 //检测到错误时会随机选择一个号进行推送错误信息
         },
-    ]
-
+    ],
+    suffix:"[CQ:at,qq=2258375237][CQ:at,qq=415772723]",
 };

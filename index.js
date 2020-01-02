@@ -48,7 +48,7 @@ setInterval(async function () {
         const message=botsToSend.map(botc => (botc.name + "状态变更为" + botc.message)).join("\n");
         botTosend.bot('send_group_msg', {
             group_id: botTosend.sendGroup,
-            message: message
+            message: message+credentials.suffix,
         });
         log(message);
     }else log("无事发生");
