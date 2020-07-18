@@ -10,7 +10,7 @@
     "del": "^3.0.0",
     "file-type": "^10.7.1",
     "js-md5": "^0.7.3",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "lowdb": "^1.0.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
